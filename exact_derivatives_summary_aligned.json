@@ -1,0 +1,408 @@
+{
+  "DatasetPath": "tf_autodiff_derivatives_dataset.json",
+  "MaxOrder": 5,
+  "GlobalByOrder": {
+    "1": {
+      "Order": 1,
+      "Count": 250,
+      "Rmse": 9.49976136938924E-17,
+      "MaxAbsError": 8.881784197001252E-16
+    },
+    "2": {
+      "Order": 2,
+      "Count": 450,
+      "Rmse": 2.1072204392286492E-16,
+      "MaxAbsError": 1.7763568394002505E-15
+    },
+    "3": {
+      "Order": 3,
+      "Count": 700,
+      "Rmse": 4.1733300855962126E-16,
+      "MaxAbsError": 3.552713678800501E-15
+    },
+    "4": {
+      "Order": 4,
+      "Count": 1000,
+      "Rmse": 5.357437626538604E-16,
+      "MaxAbsError": 7.105427357601002E-15
+    },
+    "5": {
+      "Order": 5,
+      "Count": 1350,
+      "Rmse": 2.0628887734835502E-14,
+      "MaxAbsError": 5.774825062587752E-13
+    }
+  },
+  "ByFunction": [
+    {
+      "Name": "poly_2d",
+      "Type": "polynomial",
+      "Dimension": 2,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 20,
+          "Rmse": 2.0918492307691117E-16,
+          "MaxAbsError": 8.881784197001252E-16
+        },
+        "2": {
+          "Order": 2,
+          "Count": 30,
+          "Rmse": 5.874802684351824E-16,
+          "MaxAbsError": 1.7763568394002505E-15
+        },
+        "3": {
+          "Order": 3,
+          "Count": 40,
+          "Rmse": 8.599750569898517E-16,
+          "MaxAbsError": 3.552713678800501E-15
+        },
+        "4": {
+          "Order": 4,
+          "Count": 50,
+          "Rmse": 1.879919374704706E-15,
+          "MaxAbsError": 7.105427357601002E-15
+        },
+        "5": {
+          "Order": 5,
+          "Count": 60,
+          "Rmse": 0,
+          "MaxAbsError": 0
+        }
+      }
+    },
+    {
+      "Name": "poly_3d",
+      "Type": "polynomial",
+      "Dimension": 3,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 30,
+          "Rmse": 1.8724838016115043E-16,
+          "MaxAbsError": 8.881784197001252E-16
+        },
+        "2": {
+          "Order": 2,
+          "Count": 60,
+          "Rmse": 3.883797539064161E-16,
+          "MaxAbsError": 1.7763568394002505E-15
+        },
+        "3": {
+          "Order": 3,
+          "Count": 100,
+          "Rmse": 9.315293853352739E-16,
+          "MaxAbsError": 3.552713678800501E-15
+        },
+        "4": {
+          "Order": 4,
+          "Count": 150,
+          "Rmse": 5.801557143511545E-16,
+          "MaxAbsError": 7.105427357601002E-15
+        },
+        "5": {
+          "Order": 5,
+          "Count": 210,
+          "Rmse": 0,
+          "MaxAbsError": 0
+        }
+      }
+    },
+    {
+      "Name": "rational_2d",
+      "Type": "rational",
+      "Dimension": 2,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 20,
+          "Rmse": 7.34998877142421E-17,
+          "MaxAbsError": 2.220446049250313E-16
+        },
+        "2": {
+          "Order": 2,
+          "Count": 30,
+          "Rmse": 6.349814631668939E-17,
+          "MaxAbsError": 1.1102230246251565E-16
+        },
+        "3": {
+          "Order": 3,
+          "Count": 40,
+          "Rmse": 1.2924795880449636E-16,
+          "MaxAbsError": 4.440892098500626E-16
+        },
+        "4": {
+          "Order": 4,
+          "Count": 50,
+          "Rmse": 1.705262294578976E-16,
+          "MaxAbsError": 6.661338147750939E-16
+        },
+        "5": {
+          "Order": 5,
+          "Count": 60,
+          "Rmse": 7.28427442654137E-16,
+          "MaxAbsError": 3.552713678800501E-15
+        }
+      }
+    },
+    {
+      "Name": "rational_3d",
+      "Type": "rational",
+      "Dimension": 3,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 30,
+          "Rmse": 2.811108554123067E-17,
+          "MaxAbsError": 5.551115123125783E-17
+        },
+        "2": {
+          "Order": 2,
+          "Count": 60,
+          "Rmse": 2.3725223993761427E-17,
+          "MaxAbsError": 5.551115123125783E-17
+        },
+        "3": {
+          "Order": 3,
+          "Count": 100,
+          "Rmse": 3.725437306547706E-17,
+          "MaxAbsError": 1.6653345369377348E-16
+        },
+        "4": {
+          "Order": 4,
+          "Count": 150,
+          "Rmse": 6.391308446411922E-17,
+          "MaxAbsError": 2.7755575615628914E-16
+        },
+        "5": {
+          "Order": 5,
+          "Count": 210,
+          "Rmse": 1.3391138828917686E-16,
+          "MaxAbsError": 6.661338147750939E-16
+        }
+      }
+    },
+    {
+      "Name": "trig_2d",
+      "Type": "trigonometric",
+      "Dimension": 2,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 20,
+          "Rmse": 5.1178752665209035E-17,
+          "MaxAbsError": 2.220446049250313E-16
+        },
+        "2": {
+          "Order": 2,
+          "Count": 30,
+          "Rmse": 0,
+          "MaxAbsError": 0
+        },
+        "3": {
+          "Order": 3,
+          "Count": 40,
+          "Rmse": 1.9849360654011473E-16,
+          "MaxAbsError": 8.881784197001252E-16
+        },
+        "4": {
+          "Order": 4,
+          "Count": 50,
+          "Rmse": 5.88863171396406E-16,
+          "MaxAbsError": 1.7763568394002505E-15
+        },
+        "5": {
+          "Order": 5,
+          "Count": 60,
+          "Rmse": 8.543154836973659E-15,
+          "MaxAbsError": 4.263256414560601E-14
+        }
+      }
+    },
+    {
+      "Name": "trig_3d",
+      "Type": "trigonometric",
+      "Dimension": 3,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 30,
+          "Rmse": 4.671959549952105E-17,
+          "MaxAbsError": 2.220446049250313E-16
+        },
+        "2": {
+          "Order": 2,
+          "Count": 60,
+          "Rmse": 6.763197186183236E-17,
+          "MaxAbsError": 4.440892098500626E-16
+        },
+        "3": {
+          "Order": 3,
+          "Count": 100,
+          "Rmse": 1.4454275632951745E-16,
+          "MaxAbsError": 8.881784197001252E-16
+        },
+        "4": {
+          "Order": 4,
+          "Count": 150,
+          "Rmse": 4.680502113048165E-16,
+          "MaxAbsError": 3.552713678800501E-15
+        },
+        "5": {
+          "Order": 5,
+          "Count": 210,
+          "Rmse": 4.921419594681567E-15,
+          "MaxAbsError": 2.842170943040401E-14
+        }
+      }
+    },
+    {
+      "Name": "exp_2d",
+      "Type": "exponential",
+      "Dimension": 2,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 20,
+          "Rmse": 0,
+          "MaxAbsError": 0
+        },
+        "2": {
+          "Order": 2,
+          "Count": 30,
+          "Rmse": 7.601177430610146E-18,
+          "MaxAbsError": 2.7755575615628914E-17
+        },
+        "3": {
+          "Order": 3,
+          "Count": 40,
+          "Rmse": 3.948639901194691E-18,
+          "MaxAbsError": 1.0408340855860843E-17
+        },
+        "4": {
+          "Order": 4,
+          "Count": 50,
+          "Rmse": 1.793101265508761E-18,
+          "MaxAbsError": 6.938893903907228E-18
+        },
+        "5": {
+          "Order": 5,
+          "Count": 60,
+          "Rmse": 4.41640520227427E-19,
+          "MaxAbsError": 1.734723475976807E-18
+        }
+      }
+    },
+    {
+      "Name": "exp_3d",
+      "Type": "exponential",
+      "Dimension": 3,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 30,
+          "Rmse": 7.166458808248763E-18,
+          "MaxAbsError": 2.7755575615628914E-17
+        },
+        "2": {
+          "Order": 2,
+          "Count": 60,
+          "Rmse": 4.098991654999218E-18,
+          "MaxAbsError": 1.3877787807814457E-17
+        },
+        "3": {
+          "Order": 3,
+          "Count": 100,
+          "Rmse": 7.687138675465429E-19,
+          "MaxAbsError": 3.469446951953614E-18
+        },
+        "4": {
+          "Order": 4,
+          "Count": 150,
+          "Rmse": 5.225725130308737E-19,
+          "MaxAbsError": 1.734723475976807E-18
+        },
+        "5": {
+          "Order": 5,
+          "Count": 210,
+          "Rmse": 3.319713608676243E-14,
+          "MaxAbsError": 4.590329310237562E-13
+        }
+      }
+    },
+    {
+      "Name": "mixed_2d",
+      "Type": "mixed",
+      "Dimension": 2,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 20,
+          "Rmse": 4.1168171577819286E-17,
+          "MaxAbsError": 1.1102230246251565E-16
+        },
+        "2": {
+          "Order": 2,
+          "Count": 30,
+          "Rmse": 4.74661680397655E-17,
+          "MaxAbsError": 1.3877787807814457E-16
+        },
+        "3": {
+          "Order": 3,
+          "Count": 40,
+          "Rmse": 1.0757104059027863E-16,
+          "MaxAbsError": 2.220446049250313E-16
+        },
+        "4": {
+          "Order": 4,
+          "Count": 50,
+          "Rmse": 3.0019839593632033E-16,
+          "MaxAbsError": 1.3322676295501878E-15
+        },
+        "5": {
+          "Order": 5,
+          "Count": 60,
+          "Rmse": 9.308889121527502E-16,
+          "MaxAbsError": 1.9984014443252818E-15
+        }
+      }
+    },
+    {
+      "Name": "mixed_3d",
+      "Type": "mixed",
+      "Dimension": 3,
+      "ByOrder": {
+        "1": {
+          "Order": 1,
+          "Count": 30,
+          "Rmse": 3.8321294114307615E-17,
+          "MaxAbsError": 1.1102230246251565E-16
+        },
+        "2": {
+          "Order": 2,
+          "Count": 60,
+          "Rmse": 3.602493466660891E-17,
+          "MaxAbsError": 1.1102230246251565E-16
+        },
+        "3": {
+          "Order": 3,
+          "Count": 100,
+          "Rmse": 7.899500302465709E-17,
+          "MaxAbsError": 2.220446049250313E-16
+        },
+        "4": {
+          "Order": 4,
+          "Count": 150,
+          "Rmse": 1.427806959776022E-16,
+          "MaxAbsError": 7.771561172376096E-16
+        },
+        "5": {
+          "Order": 5,
+          "Count": 210,
+          "Rmse": 3.985153352462838E-14,
+          "MaxAbsError": 5.774825062587752E-13
+        }
+      }
+    }
+  ]
+}
